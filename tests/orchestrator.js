@@ -1,5 +1,4 @@
 const retry = require("async-retry");
-const { getMaxAge } = require("next/dist/server/image-optimizer");
 
 async function waitForAllServices() {
   await waitForWebServer();
